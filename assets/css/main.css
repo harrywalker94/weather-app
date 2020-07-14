@@ -1,0 +1,59 @@
+:root {
+    --black: #06070E;
+    --white: #ffffff;
+    --grey: #c0c0c0;
+    --skyBlue: #87CEEB;
+    --blue: #2F6690;
+}
+
+body {
+    background: var(--skyBlue);
+    color: var(--white);
+}
+
+.card {
+    box-shadow: 0 6px 10px rgb(0, 0, 0);
+    background: var(--blue);
+}
+
+.card-title h3 {
+    letter-spacing: 2px;
+}
+
+.cityInput {
+    border: 0.15rem solid var(--white);
+    background: transparent !important;
+    font-size: 1.5rem;
+    color: var(--white);
+}
+
+.submitBtn {
+    background: var(--skyBlue);
+    border: 0.15rem solid var(--skyBlue);
+    columns: var(--white);
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: ease-in-out .2s;
+}
+
+.submitBtn span {
+    color: var(--white);
+}
+
+.submitBtn:hover {
+    opacity: .5;
+}
+
+.feedback {
+    display: none;
+}
+
+.results {
+    display: none;
+}
+
+.showItem {
+    display: block;
+    justify-content: center;
+    flex-direction: column;
+}
